@@ -17,7 +17,6 @@ Both outputs beat the target error, the compressor by a factor of about 2.5.
 
 <img width="1487" height="1083" alt="image" src="https://github.com/user-attachments/assets/d0e71d27-5634-41ad-8e84-da83dfbd73e2" />
 
-
 Training and validation loss fall together and stabilize, which shows the model converged without significant overfitting.
 
 ## Dataset
@@ -29,7 +28,7 @@ Training and validation loss fall together and stabilize, which shows the model 
 - **Outputs (2):** compressor decay coefficient and turbine decay coefficient
 - Random split: 50% training, 25% validation, 25% test
 
-Download the data and place it as `data/data.txt` before running.
+Download the data and save the data file as `maintenance.txt` in the repo folder before running.
 
 ## Model
 
@@ -62,6 +61,6 @@ python train.py
 - How Adam's momentum and adaptive learning rates speed up convergence compared with plain gradient descent
 - How a weighted loss lets you prioritize one output over another
 
-## Author
+## Authors
 
-Afram Goro
+Afram Goro and Adam Kraft
